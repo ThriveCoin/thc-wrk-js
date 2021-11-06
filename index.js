@@ -6,7 +6,7 @@ const main = async () => {
   try {
     const wrk = await wrkLoader(__dirname)
     await wrk.start()
-    console.log(`worker started, listening on port ${wrk._port}, announced as ${wrk._name}`)
+    console.log(`worker started listening on port ${wrk._port}, announced as ${wrk._name}`)
 
     process.once('SIGINT', async () => {
       await wrk.stop()
