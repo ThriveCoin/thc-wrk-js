@@ -1,0 +1,44 @@
+{
+  "name": "thc-wrk",
+  "version": "0.1.0",
+  "description": "Base repository for thrivecoin workers in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "format": "standard --fix",
+    "test": "npm run lint && npm run test:code",
+    "test:code": "NODE_ENV=test mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThriveCoin/thc-wrk-js.git"
+  },
+  "keywords": [
+    "thc",
+    "thrivecoin",
+    "thrive",
+    "worker",
+    "template",
+    "boilerplate"
+  ],
+  "author": {
+    "name": "vigan.abd",
+    "email": "vigan@thrivecoin.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThriveCoin/thc-wrk-js/issues"
+  },
+  "homepage": "https://github.com/ThriveCoin/thc-wrk-js#readme",
+  "dependencies": {
+    "thc-grc-server": "git+https://github.com/ThriveCoin/thc-grc-server-js.git",
+    "thc-wrk-loader": "git+https://github.com/ThriveCoin/thc-wrk-loader-js.git"
+  },
+  "devDependencies": {
+    "bfx-svc-test-helper": "git+https://github.com/bitfinexcom/bfx-svc-test-helper.git",
+    "mocha": "^9.1.3",
+    "sinon": "^12.0.1",
+    "standard": "^16.0.4",
+    "thc-grc-client": "git+https://github.com/ThriveCoin/thc-grc-client-js.git"
+  }
+}

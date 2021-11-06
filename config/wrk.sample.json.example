@@ -1,0 +1,4 @@
+{
+  "serviceName": "http:wrk:sample",
+  "greeter": "Thrive team"
+}
