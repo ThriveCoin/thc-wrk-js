@@ -31,14 +31,14 @@
   },
   "homepage": "https://github.com/ThriveCoin/thc-wrk-js#readme",
   "dependencies": {
-    "thc-grc-server": "git+https://github.com/ThriveCoin/thc-grc-server-js.git",
-    "thc-wrk-loader": "git+https://github.com/ThriveCoin/thc-wrk-loader-js.git"
+    "@thrivecoin/grc-server": "git+https://github.com/ThriveCoin/thc-grc-server-js.git",
+    "@thrivecoin/wrk-loader": "git+https://github.com/ThriveCoin/thc-wrk-loader-js.git"
   },
   "devDependencies": {
+    "@thrivecoin/grc-client": "git+https://github.com/ThriveCoin/thc-grc-client-js.git",
     "bfx-svc-test-helper": "git+https://github.com/bitfinexcom/bfx-svc-test-helper.git",
     "mocha": "^9.1.3",
     "sinon": "^12.0.1",
-    "standard": "^16.0.4",
-    "thc-grc-client": "git+https://github.com/ThriveCoin/thc-grc-client-js.git"
+    "standard": "^16.0.4"
   }
 }

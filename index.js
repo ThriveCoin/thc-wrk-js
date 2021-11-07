@@ -1,6 +1,6 @@
 'use strict'
 
-const { wrkLoader } = require('thc-wrk-loader')
+const { wrkLoader } = require('@thrivecoin/wrk-loader')
 
 const main = async () => {
   try {

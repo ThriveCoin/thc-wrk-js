@@ -6,8 +6,8 @@ const assert = require('assert')
 const createGrapes = require('bfx-svc-test-helper/grapes')
 const path = require('path')
 const sinon = require('sinon')
-const { GrcHttpClient } = require('thc-grc-client')
-const { resolveConfig } = require('thc-wrk-loader')
+const { GrcHttpClient } = require('@thrivecoin/grc-client')
+const { resolveConfig } = require('@thrivecoin/wrk-loader')
 
 const WrkSample = require('../src/workers/wrk.sample')
 
